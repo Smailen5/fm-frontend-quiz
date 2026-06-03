@@ -1,0 +1,22 @@
+@import "./assets/fonts/fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply transition-colors duration-500;
+}
+
+:root {
+  --clr-pureWhite: hsl(0, 0%, 100%);
+  --clr-lightGrey: hsl(220, 38%, 97%);
+  --clr-lightBluish: hsl(216, 47%, 78%);
+  --clr-greyNavy: hsl(219, 13%, 44%);
+  --clr-navy: hsl(216, 27%, 32%);
+  --clr-darkNavy: hsl(216, 25%, 25%);
+  --clr-purple: hsl(277, 91%, 56%);
+  --clr-purple-light: hsl(277, 91%, 80%);
+  --clr-purple-ultraLight: hsl(277, 91%, 95%);
+  --clr-green: hsl(151, 70%, 50%);
+  --clr-red: hsl(0, 82%, 63%);
+}

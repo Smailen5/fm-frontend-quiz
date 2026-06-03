@@ -1,14 +1,48 @@
 {
-  "name": "templates",
+  "name": "frontend-quiz-app",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "App quiz frontend con routing dinamico, realizzata con React, TypeScript e Tailwind CSS per un'esperienza interattiva.",
+  "technologies": [
+    "react",
+    "typescript",
+    "tailwind css",
+    "react router",
+    "vite"
+  ],
+  "author": "Smailen Vargas",
+  "createdAt": "2024-01-25T00:00:00.000Z",
   "type": "module",
   "scripts": {
-    "lint:check": "eslint . --ext js,jsx,ts,tsx",
-    "lint:fix": "eslint . --ext js,jsx,ts,tsx --fix",
-    "format:check": "prettier --check .",
-    "format:fix": "prettier --write .",
-    "type-check": "tsc --noEmit"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
-  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387"
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "tailwind-merge": "^2.5.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@svgr/webpack": "^8.1.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.45",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "tailwindcss": "^3.4.11",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.1",
+    "vite-plugin-svgr": "^4.2.0"
+  }
 }

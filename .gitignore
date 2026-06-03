@@ -1,9 +1,7 @@
-# Template per tutti i progetti
-
 # ==================================================
 # Dipendenze
 # ==================================================
-node-modules/
+node_modules/
 /.pnp
 .pnp.js
 
@@ -11,10 +9,12 @@ node-modules/
 # Log
 # ==================================================
 logs
-*.logs
+*.log
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
 
 # ==================================================
 # Build e Output
@@ -24,6 +24,7 @@ dist-ssr/
 build/
 out/
 .next/
+.vite/
 .tsbuildinfo
 *.local
 *.cache
@@ -36,6 +37,7 @@ coverage/
 .eslintignore
 .eslintrc.cjs
 .netlify
+.prettierignore
 
 # ==================================================
 # Variabili d'Ambiente (Sicurezza)
@@ -51,8 +53,9 @@ coverage/
 # ==================================================
 .DS_Store
 Thumbs.db
-.vscode/
+.vscode/*
 !.vscode/extensions.json
+.idea
 .cursor
 *.suo
 *.ntvs*

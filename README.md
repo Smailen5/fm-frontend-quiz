@@ -1,5 +1,8 @@
 # Frontend quiz app
 
+![GitHub Release](https://img.shields.io/github/v/release/Smailen5/fm-frontend-quiz)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/Smailen5/fm-frontend-quiz/main)
+
 This is a solution to the [Frontend quiz app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/frontend-quiz-app-BE7xkzXQnU). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Overview

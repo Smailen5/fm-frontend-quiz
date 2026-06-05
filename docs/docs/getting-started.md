@@ -12,7 +12,7 @@ Questa guida ti mostrerà come configurare l'ambiente di sviluppo per **Frontend
 ## Prerequisiti
 
 - **Node.js** >= 18.x (consigliata la versione LTS)
-- **npm** >= 9.x (incluso con Node.js)
+- **pnpm** >= 9.x (incluso con Node.js)
 - Un editor di codice (es. VS Code)
 
 ## Installazione
@@ -22,29 +22,29 @@ Clona il repository e installa le dipendenze:
 ```bash
 git clone https://github.com/Smailen5/fm-frontend-quiz.git
 cd fm-frontend-quiz
-npm install
+pnpm install
 ```
 
 ## Comandi disponibili
 
 | Comando | Descrizione |
 |---------|-------------|
-| `npm run dev` | Avvia il dev server Vite con hot module replacement |
-| `npm run build` | Esegue il typecheck (`tsc -b`) e la build di produzione |
-| `npm run lint` | Esegue ESLint su tutto il progetto (solo file `.ts`/`.tsx`) |
-| `npm run preview` | Avvia un server locale per visualizzare la build di produzione |
+| `pnpm dev` | Avvia il dev server Vite con hot module replacement |
+| `pnpm build` | Esegue il typecheck (`tsc -b`) e la build di produzione |
+| `pnpm lint` | Esegue ESLint su tutto il progetto (solo file `.ts`/`.tsx`) |
+| `pnpm preview` | Avvia un server locale per visualizzare la build di produzione |
 
 ## Avvio rapido
 
 ```bash
 # Sviluppo
-npm run dev
+pnpm dev
 
 # Build di produzione
-npm run build
+pnpm build
 
 # Anteprima della build
-npm run preview
+pnpm preview
 ```
 
 Il server di sviluppo sarà disponibile all'indirizzo `http://localhost:5173`.

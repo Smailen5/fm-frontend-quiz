@@ -5,15 +5,15 @@
 - React Router v6 (`createBrowserRouter`), `vite-plugin-svgr`, `tailwind-merge`
 - Atomic Design: `src/components/{atoms,molecules,organisms}/`
 - Quiz data-driven da `src/data.json` (4 topic: HTML, CSS, JavaScript, Accessibility)
-- Gestito con **npm** (`package-lock.json`)
+- Gestito con **pnpm** (`pnpm-lock.yaml`)
 
 ## Comandi
 | Comando | Cosa fa |
 |---------|---------|
-| `npm run dev` | Avvia dev server Vite |
-| `npm run build` | `tsc -b && vite build` (typecheck + build) |
-| `npm run lint` | `eslint .` (flat config, solo TS/TSX) |
-| `npm run preview` | Preview della build |
+| `pnpm dev` | Avvia dev server Vite |
+| `pnpm build` | `tsc -b && vite build` (typecheck + build) |
+| `pnpm lint` | `eslint .` (flat config, solo TS/TSX) |
+| `pnpm preview` | Preview della build |
 
 Nessun test framework installato.
 
@@ -31,7 +31,8 @@ Nessun test framework installato.
 - **`useDarkModeContext`** — naming con `d` minuscola (non `useDarkModeContext` con la D). Hook esportato accanto a `DarkModeProvider`.
 - **SVG import** due modalità: con `?react` (es. `icon-html.svg?react`) per componenti React inline; import URL diretto (es. `pattern-background-desktop-light.svg`) per immagini sfondo.
 - **`iconMaps`**: oggetto stringa→componente in `src/assets/images/index.ts` per risolvere dinamicamente le icone quiz da `data.json`.
-- PR template in `.github/pull_request_template.md` menziona `pnpm lint` ma il progetto usa **npm**.
+- **PR template** in `.github/pull_request_template.md`
+- `package.json` script: `dev`, `build`, `lint`, `preview` (invocabili con `pnpm <script>`)
 
 ## Convenzioni
 - **Commit:** Conventional Commits **senza scope**. Prefissi: `feat:`, `fix:`, `docs:`, `chore:`, `refactor:`, `test:`. Messaggi in italiano.

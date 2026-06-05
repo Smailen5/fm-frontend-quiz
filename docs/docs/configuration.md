@@ -96,7 +96,7 @@ ESLint utilizza la flat config (`eslint.config.js`) con le seguenti estensioni:
 - `eslint-plugin-react-refresh` — regole per React Fast Refresh
 
 ```bash
-npm run lint
+pnpm lint
 ```
 
 ## Configurazione Prettier
@@ -114,7 +114,7 @@ La formattazione del codice è gestita da Prettier con il plugin `prettier-plugi
 }
 ```
 
-## Script NPM
+## Script disponibili
 
 ```json
 {
@@ -129,10 +129,10 @@ La formattazione del codice è gestita da Prettier con il plugin `prettier-plugi
 
 | Script | Azione |
 |--------|--------|
-| `npm run dev` | Avvia il dev server con HMR |
-| `npm run build` | Typecheck + build di produzione |
-| `npm run lint` | Analisi statica del codice |
-| `npm run preview` | Server locale per la build |
+| `pnpm dev` | Avvia il dev server con HMR |
+| `pnpm build` | Typecheck + build di produzione |
+| `pnpm lint` | Analisi statica del codice |
+| `pnpm preview` | Server locale per la build |
 
 ## Dipendenze principali
 

@@ -12,7 +12,7 @@ Questa guida ti mostrerà come configurare l'ambiente di sviluppo per **Frontend
 ## Prerequisiti
 
 - **Node.js** >= 18.x (consigliata la versione LTS)
-- **pnpm** >= 9.x (incluso con Node.js)
+- **pnpm** >= 9.x (installa con `npm install -g pnpm`)
 - Un editor di codice (es. VS Code)
 
 ## Installazione
@@ -28,7 +28,7 @@ pnpm install
 ## Comandi disponibili
 
 | Comando | Descrizione |
-|---------|-------------|
+| --------- | ------------- |
 | `pnpm dev` | Avvia il dev server Vite con hot module replacement |
 | `pnpm build` | Esegue il typecheck (`tsc -b`) e la build di produzione |
 | `pnpm lint` | Esegue ESLint su tutto il progetto (solo file `.ts`/`.tsx`) |
